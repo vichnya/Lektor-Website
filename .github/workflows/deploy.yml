@@ -24,8 +24,13 @@ jobs:
       - name: Install Lektor
         run: pip install lektor
 
-      - name: Deploy Lektor
-        env:
-          LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
-          LEKTOR_DEPLOY_PASSWORD: ${{ secrets.LEKTOR_DEPLOY_PASSWORD }}
-        run: lektor deploy ghpages
+      - name: Build Lektor site
+        run: lektor build --output-path _site
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./_site
+          force_orphan: true
