@@ -24,7 +24,7 @@ jobs:
       - name: Install Lektor
         run: pip install lektor
 
-      - name: Deploy to gh-pages
+      - name: Deploy Lektor
         env:
           LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
           LEKTOR_DEPLOY_PASSWORD: ${{ secrets.LEKTOR_DEPLOY_PASSWORD }}
