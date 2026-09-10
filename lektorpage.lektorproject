@@ -3,4 +3,4 @@ name = lektorpage
 
 [servers.ghpages]
 name = Dev
-target = ghpages+https://vichnya/my_lektor
+target = ghpages+https://vichnya/Lektor-Website
