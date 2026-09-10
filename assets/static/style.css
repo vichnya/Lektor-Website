@@ -1,0 +1,96 @@
+body {
+    font-family: 'Lobster', cursive;
+    margin: 50px 25px;
+    background: #F4D8D2;
+}
+
+a {
+    color: #754A41;
+    font-size: 25px;
+    font-weight: 700;
+    list-style-type: armenian;
+}
+
+a:hover {
+    color: #C27B6D;
+}
+
+
+header, footer, div.page {
+    width: 100%;
+    margin: 0 auto;
+    background: #C27B6D;
+    padding: 20px 30px;
+}
+h1 {
+    font-size: 40px;
+    color: #754A41;
+}
+header h1 {
+    color: #73613E;
+    margin: 0;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 10px;
+}
+
+div.page {
+    background: #F4D8D2;
+}
+
+h2 {
+    text-align: left;
+    font-size: 25px;
+    color: #F29988;
+}
+
+p.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+p.image-project {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul.project-list {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    line-height: 40px;
+}
+
+ul.project {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+}
+
+.projects {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.name {
+    font-size: small;
+}
+
+footer {
+    color:#754A41;
+}

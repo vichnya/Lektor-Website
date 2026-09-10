@@ -1,0 +1,21 @@
+name: Блт telegram для определению психологического состояния
+---
+categories: sob-r
+---
+date: 2022-05-30
+---
+description:
+
+Телеграм бот использует тест "Шкала депрессии Бэка" для предворительной оценки психологического состояния.
+
+После прохождения теста результаты записываются в Excel файл.
+
+Также есть возможность моделирования и сохранения статистических данных по прохождению теста в виде диаграммы.
+
+
+Более подробная информация:  [Google doc](https://docs.google.com/document/d/1xBO1g2abFpALulAwvsExOm1yZfIuCfRA/edit)
+
+Скринкаст к работе: [Google Drive](https://drive.google.com/file/d/1XyP2Vwrh6Z4rJPh-4XFaPZmeNWs2SJRy/view?usp=sharing)
+
+Код бота на GitHub: [GitHub](https://github.com/vichnya/psihbot)
+
